@@ -3,8 +3,8 @@
 
 def parrot(phrase = "")
   puts phrase
-  phrase != "" do
+  phrase ? != "" do
     puts phrase
   end
-  phrase != ""  ? phrase : "Squawk"
+  phrase ? != ""  ? phrase : "Squawk"
 end
