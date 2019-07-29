@@ -2,6 +2,6 @@
 # returns the phrase
 
 def parrot(*phrase)
-
+  puts phrase
   return phrase.nil ? false : phrase
 end
