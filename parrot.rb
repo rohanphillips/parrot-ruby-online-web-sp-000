@@ -6,5 +6,5 @@ def parrot(phrase = "")
   if phrase != ""
     puts phrase
   end
-  phrase ? != "" phrase : "Squawk"
+  phrase.eql? "" phrase : "Squawk"
 end
