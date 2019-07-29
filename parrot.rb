@@ -6,6 +6,5 @@ def parrot(phrase = "")
   phrase != "" do
     puts phrase
   end
-  end
-  return phrase != ""  ? phrase : "Squawk"
+  phrase != ""  ? phrase : "Squawk"
 end
